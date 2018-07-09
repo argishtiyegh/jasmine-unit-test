@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 
-
 /*
 * For react component's testing check out http://airbnb.io/enzyme/ ==> enzyme project.
 * */
@@ -11,6 +10,7 @@ import './App.css';
 class App  extends Component {
     constructor(props){
         super(props);
+        testPerson.getName();
     }
     render() {
         return <p>{"Testing with Jasmine"}</p>

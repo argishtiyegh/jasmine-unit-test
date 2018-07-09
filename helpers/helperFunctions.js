@@ -16,3 +16,14 @@ export const testFunction = function () {
 export const testFunctionTwo = function () {
     return "Test With Jasmine 2";
 };
+
+export const testObject = {
+    name: "Argishti"
+};
+
+
+export const testPerson = {
+    getName: function () {
+        console.log("called");
+    }
+};
