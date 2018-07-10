@@ -10,7 +10,6 @@ import './App.css';
 class App  extends Component {
     constructor(props){
         super(props);
-        testPerson.getName();
     }
     render() {
         return <p>{"Testing with Jasmine"}</p>
